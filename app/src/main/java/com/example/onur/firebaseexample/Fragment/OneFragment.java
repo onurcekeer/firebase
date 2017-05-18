@@ -129,6 +129,7 @@ public class OneFragment extends Fragment {
                         .into(holder.picture);
             }
 
+            // asdaDADDAFAFASDF
             @Override
             public int getItemCount() {
                 return LENGHT;
