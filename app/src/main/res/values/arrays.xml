@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="places">
+        <item>Palais Garnie</item>
+        <item>Piazza del Duomo</item>
+        <item>Manhattan</item>
+    </string-array>
+    <array name="places_picture">
+        <item>@drawable/astronot</item>
+        <item>@drawable/hey_douglas</item>
+        <item>@drawable/firebase</item>
+    </array>
+</resources>

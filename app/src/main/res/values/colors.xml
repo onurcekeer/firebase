@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4568DC</color>
+    <color name="colorPrimaryDark">#4d59a7</color>
+    <color name="colorAccent">#ffcb2b</color>
+    <color name="notification_color">#ffbf40</color>
+    <color name="fragment_three_background">#ffffff</color>
+    <color name="card_view_background">#f5efdf</color>
+    <color name="card_view_description_text">#25183f</color>
+
+</resources>

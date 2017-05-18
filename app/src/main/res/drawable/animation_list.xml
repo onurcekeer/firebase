@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/roostio"
+        android:duration="7000" />
+
+    <item
+        android:drawable="@drawable/venice"
+        android:duration="7000" />
+
+    <item
+        android:drawable="@drawable/pacific_dream"
+        android:duration="7000" />
+
+
+    <item
+        android:drawable="@drawable/love_tonight"
+        android:duration="7000" />
+
+  <!--  <item
+        android:drawable="@drawable/the_blue_lagoon"
+        android:duration="10000" />
+        -->
+</animation-list>

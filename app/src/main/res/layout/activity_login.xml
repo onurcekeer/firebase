@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    tools:context="com.example.onur.firebaseexample.Activity.LoginActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:inputType="textPassword"
+        android:ems="14"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editText2"
+        android:hint="@string/password"
+        android:paddingLeft="4dp"
+        android:alpha="0.5"
+        android:background="@drawable/rounded_edittext"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:paddingLeft="4dp"
+        android:inputType="textEmailAddress"
+        android:ems="14"
+        android:id="@+id/editText"
+        android:hint="@string/email"
+        android:background="@drawable/rounded_edittext"
+        android:alpha="0.5"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/firebase_logo"
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/firebase"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebook_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/google_sign_in_button"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/google_sign_in_button"
+        android:layout_below="@+id/button_login"
+        android:layout_centerHorizontal="true">
+
+    </com.google.android.gms.common.SignInButton>
+
+    <Button
+        android:text="@string/register"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/button_register"
+        android:ems="8"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:textStyle="normal" />
+
+    <Button
+        android:text="@string/login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/button_login"
+        android:ems="8"
+        android:background="@drawable/rounded_edittext"
+        android:textStyle="normal"
+        android:layout_alignTop="@+id/button_register"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+
+</RelativeLayout>
